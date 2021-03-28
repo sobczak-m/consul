@@ -1,5 +1,5 @@
 import UseCases from '@hashicorp/react-use-cases'
-import DiptychHero from 'components/k8s-get-started'
+import CtaHero from 'components/cta-hero'
 import ConsulEnterpriseComparison from '../../components/enterprise-comparison/consul'
 import PrefooterCTA from '../../components/prefooter-cta'
 import LearnCallout from '../../components/learn-callout'
@@ -12,7 +12,7 @@ import K8sGetStarted from 'components/k8s-get-started'
 export default function HomePage() {
   return (
     <div className="p-home">
-      <DiptychHero />
+      <CtaHero />
       <K8sGetStarted />
 
       <ProductFeaturesList
